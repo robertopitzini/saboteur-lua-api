@@ -1,0 +1,42 @@
+site_name: The Saboteur Lua API
+site_description: Lua functions available to scripts in The Saboteur.
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - search.suggest
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+nav:
+  - Home: index.md
+  - Guide:
+    - Reading signatures: guide/types.md
+  - API reference:
+    - Overview: api/index.md
+    - Actor: api/actor.md
+    - AttractionPt: api/attractionpt.md
+    - Checkpoint: api/checkpoint.md
+    - Cin: api/cin.md
+    - Combat: api/combat.md
+    - Damage: api/damage.md
+    - Filter: api/filter.md
+    - FocusPt: api/focuspt.md
+    - Freeplay: api/freeplay.md
+    - HUD: api/hud.md
+    - Inventory: api/inventory.md
+    - Nav: api/nav.md
+    - Object: api/object.md
+    - Render: api/render.md
+    - Sabotage: api/sabotage.md
+    - SaveLoad: api/saveload.md
+    - Searchlight: api/searchlight.md
+    - Sensory: api/sensory.md
+    - Sound: api/sound.md
+    - Squad: api/squad.md
+    - Suspicion: api/suspicion.md
+    - Train: api/train.md
+    - Trigger: api/trigger.md
+    - Util: api/util.md
+    - Vehicle: api/vehicle.md
+    - Zone: api/zone.md
